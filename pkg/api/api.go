@@ -26,6 +26,7 @@ import (
 	"github.com/docker/compose/v2/pkg/utils"
 )
 
+// TODO (lizz): Add new method here too :)
 // Service manages a compose project
 type Service interface {
 	// Build executes the equivalent to a `compose build`
